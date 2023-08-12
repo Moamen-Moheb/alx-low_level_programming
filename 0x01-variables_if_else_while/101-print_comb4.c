@@ -20,7 +20,7 @@ int main()
                 digit[0] = i;
                 digit[1] = j;
                 digit[2] = k;
-                printf("%d%d%d\n", digit[0],digit[1],digit[2]);
+                printf("%d%d%d\n", i,j,k);
             }
         }
     }
