@@ -6,20 +6,20 @@
  */
 int main()
 {
-    int i;
-    int j;
-    int k;
+	int i;
+	int j;
+	int k;
 
-    for (i = 0; i < 7; i++)
-    {
-	    for (j = i + 1; j < 9; j++)
-	    {
-		    for (k = j + 1; k < 10; k++)
-		    {
-			    printf("%d%d%d, ", i,j,k);
-		    }
-	    }
-    }
+	for (i = 0; i < 7; i++)
+	{
+		for (j = i + 1; j < 9; j++)
+		{
+			for (k = j + 1; k < 10; k++)
+			{
+				printf("%d%d%d, ", i,j,k);
+			}
+		}
+	}
 	printf("789");
 	return 0;
 }
