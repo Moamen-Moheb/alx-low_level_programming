@@ -6,7 +6,7 @@
  */
 int main()
 {
-	char digit[4];
+	int digit[3];
 	int i;
 	int j;
 	int k;
@@ -16,11 +16,10 @@ int main()
 		{
 			for (k = j + 1; k < 10; k++)
 			{
-				digit[0] = i + '0';
-				digit[1] = j + '0';
-				digit[2] = k + '0';
-				digit[3] = '\0';
-				printf("%s\n", digit);
+				digit[0] = i;
+				digit[1] = j;
+				digit[2] = k;
+				printf("%d, ", digit);
 			}
 		}
     	}
