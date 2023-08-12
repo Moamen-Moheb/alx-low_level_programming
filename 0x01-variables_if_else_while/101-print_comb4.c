@@ -4,7 +4,7 @@
  *
  * Return: 0 on success
  */
-int main()
+int main(void)
 {
 	int i;
 	int j;
@@ -16,7 +16,7 @@ int main()
 		{
 			for (k = j + 1; k < 10; k++)
 			{
-				printf("%d%d%d, ", i,j,k);
+				printf("%d%d%d, ", i, j, k);
 			}
 		}
 	}
