@@ -1,23 +1,35 @@
 #include <stdio.h>
 /**
- * main - print numbers from 00 to 99.
- *
+ * main - a program that prints all possible different combinations of two digits.
+(*
  * Return: 0 on success
  */
-int main()
+int main(void)
 {
-	int i;
-	int j;
-	int k;
-	for (i = 0; i < 8; i++)
+	int i = '0';
+	int j = '0';
+	while (i <= '9')
 	{
-		for (j = i + 1; j < 9; j++)
+		while (j <= '9')
 		{
-			for (k = j + 1; k < 10; k++)
+			if (!(i > j || i == j))
 			{
-				printf("%d%d%d, ",i,j,k);
+				putchar(i);
+				putchar(j);
+				if (i == '8' && j == '9')
+				{
+					putchar('\n');
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
+			j++;
 		}
-    	}
-	return 0;
+		j = '0';
+		i++;
+	}
+	return (0);
 }
