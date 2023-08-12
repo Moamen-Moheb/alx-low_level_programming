@@ -1,8 +1,9 @@
-#incdlue<stdio.h>
-\*
+#include<stdio.h>
+/*
  * main - this is main function.
  *
  * Return: 0 on success
+*/
 int main()
 {
 	char digit[4];
