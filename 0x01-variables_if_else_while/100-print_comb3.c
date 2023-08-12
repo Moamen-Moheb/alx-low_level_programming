@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a program that prints all possible different combinations of two digits.
+ * main - different combinations of two digits.
  *
  * Return: 0 on success
  */
@@ -8,7 +8,7 @@ int main(void)
 {
 	int i = '0';
 	int j = '0';
-	
+
 	while (i <= '9')
 	{
 		while (j <= '9')
