@@ -21,5 +21,5 @@ int main(void)
 		}
 	}
 	printf("789\n");
-	return 0;
+	return (0);
 }
