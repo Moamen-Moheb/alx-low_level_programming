@@ -4,7 +4,7 @@
  *
  * Return: 0 on success
  */
-int main(0)
+int main(void)
 {
 	int i;
 
