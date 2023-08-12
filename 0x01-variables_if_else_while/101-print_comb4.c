@@ -20,6 +20,6 @@ int main()
 			}
 		}
 	}
-	printf("789");
+	printf("789\n");
 	return 0;
 }
