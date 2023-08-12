@@ -16,9 +16,6 @@ int main()
         {
             for (k = j + 1; k < 10; k++)
             {
-                digit[0] = i;
-                digit[1] = j;
-                digit[2] = k;
                 printf("%d%d%d\n", i,j,k);
             }
         }
